@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    DOCKER_IMAGE = "aditya-nv-06/nodejs-demo-app:latest"
+    DOCKER_IMAGE = "ironcrush2006/nodejs-demo-app:latest"
     DOCKER_REGISTRY = "docker.io" // e.g., "docker.io/aditya-nv-06"
   }
   stages {
